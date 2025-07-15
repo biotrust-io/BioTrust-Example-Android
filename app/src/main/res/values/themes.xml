@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.BioTrustExample" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/button_color</item>
+        <item name="colorPrimaryDark">@color/button_pressed_color</item>
+        <item name="colorAccent">@color/button_color</item>
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:textColorPrimary">@color/instruction_text_color</item>
+        <item name="android:textColorSecondary">@color/status_text_color</item>
+    </style>
+</resources>
