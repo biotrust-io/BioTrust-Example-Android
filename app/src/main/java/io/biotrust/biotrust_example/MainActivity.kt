@@ -13,10 +13,10 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import br.com.biotrust.biometricfacevalidator.BiometricValidationLauncher
-import br.com.biotrust.biometricfacevalidator.FaceBiometricConfig
-import br.com.biotrust.biometricfacevalidator.model.ValidationMode
-import br.com.biotrust.biometricfacevalidator.model.ValidationResult
+import io.biotrust.biometricfacevalidator.BiometricValidationLauncher
+import io.biotrust.biometricfacevalidator.FaceBiometricConfig
+import io.biotrust.biometricfacevalidator.model.ValidationMode
+import io.biotrust.biometricfacevalidator.model.ValidationResult
 import com.biotrust.biotrust_example.ui.theme.BioTrustExampleTheme
 
 
@@ -24,7 +24,7 @@ import com.biotrust.biotrust_example.ui.theme.BioTrustExampleTheme
 class MainActivity : AppCompatActivity() {
 
     private lateinit var validationLauncher: BiometricValidationLauncher
-    private val uuid = "ADICIONE SEU UUID FORNECIDO PELO BIOTRUST AQUI"
+    private val uuid = "SEU UUID"
     private val apiUrl = "https://api.biotrust.com.br"
 
     override fun onCreate(savedInstanceState: Bundle?) {
