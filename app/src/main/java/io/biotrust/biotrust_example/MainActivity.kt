@@ -1,4 +1,4 @@
-package com.biotrust.biotrust_example
+package io.biotrust.biotrust_example
 
 import android.os.Bundle
 import android.util.Log
@@ -17,7 +17,7 @@ import io.biotrust.biometricfacevalidator.BiometricValidationLauncher
 import io.biotrust.biometricfacevalidator.FaceBiometricConfig
 import io.biotrust.biometricfacevalidator.model.ValidationMode
 import io.biotrust.biometricfacevalidator.model.ValidationResult
-import com.biotrust.biotrust_example.ui.theme.BioTrustExampleTheme
+import io.biotrust.biotrust_example.ui.theme.BioTrustExampleTheme
 
 
 @ExperimentalGetImage
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var validationLauncher: BiometricValidationLauncher
     private val uuid = "SEU UUID"
-    private val apiUrl = "https://api.biotrust.com.br"
+    private val apiUrl = "https://api.biotrust.io"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.biotrust.biotrust_example"
+    namespace = "io.biotrust.biotrust_example"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.biotrust.biotrust_example"
+        applicationId = "io.biotrust.biotrust_example"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -64,6 +64,7 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
 
-    implementation(libs.biometricfacevalidator)
+    implementation("io.biotrust:biometricfacevalidator:1.0.1")
+
 
 }

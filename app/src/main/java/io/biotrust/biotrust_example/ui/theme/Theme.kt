@@ -1,4 +1,4 @@
-package com.biotrust.biotrust_example.ui.theme
+package io.biotrust.biotrust_example.ui.theme
 
 import android.app.Activity
 import android.os.Build
